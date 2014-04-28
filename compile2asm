@@ -1,0 +1,1 @@
+gcc -S demo.c -o demo.s -ffast-math -fomit-frame-pointer -msseregparm -mfpmath=sse -msse3 `sdl-config --cflags --libs` -lwiiuse -lm
