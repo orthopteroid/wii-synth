@@ -1,7 +1,7 @@
 wii-synth
 =========
 
-Linux-platform gesture-based synthesiser designed around using a wii controller as an input device. Uses SDL and WiiUse libraries and a C-based SSE2 assembly-framework to build the synth using GCC. This synth is really a toy, as the synth network is placed in a static memory using hand-coded using C macros. But it does show how to do low-latency, event-driven realtime audio rendering. It uses some x86 and SSE assembler (actually lots of that really).
+Linux-platform gesture-based synthesiser designed to use a wii controller as an input device. Uses SDL and WiiUse libraries and a C-based SSE2 assembly-framework to build the synth using GCC. This synth is really a toy, as the synth network is placed in a static memory using C macros ... but it does show how to do low-latency, event-driven realtime audio rendering. It uses some x86 and SSE assembler (actually lots of that really).
 
 ## Oscillators
 
